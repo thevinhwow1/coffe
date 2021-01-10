@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace design_app_cf_đồ_án_tốt_nghiệp
 {
-    public partial class Form1 : Form
+    public partial class fLogin : Form
     {
-        public Form1()
+        public fLogin()
         {
             InitializeComponent();
         }
