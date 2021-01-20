@@ -29,7 +29,23 @@ namespace design_app_cf_đồ_án_tốt_nghiệp
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("bạn có muốn thoát","thông báo",MessageBoxButtons.OKCancel)!= System.Windows.Forms.DialogResult.OK)
+           {
+                e.Cancel = true;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            table_messenger f = new table_messenger();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }
