@@ -16,5 +16,10 @@ namespace design_app_cf_đồ_án_tốt_nghiệp
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

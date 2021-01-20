@@ -63,7 +63,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(90, 9);
+            this.textBox2.Location = new System.Drawing.Point(90, 3);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(147, 20);
             this.textBox2.TabIndex = 2;
@@ -198,6 +198,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Thoát";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Thông_tin_cá_nhan
             // 
