@@ -26,5 +26,17 @@ namespace design_app_cf_đồ_án_tốt_nghiệp
         {
 
         }
+
+        private void thôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+             Thông_tin_cá_nhan f = new Thông_tin_cá_nhan();
+            f.ShowDialog();
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin f = new Admin();
+            f.ShowDialog();
+        }
     }
 }
